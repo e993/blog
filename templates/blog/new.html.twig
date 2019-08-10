@@ -1,1 +1,33 @@
 {% extends 'base.html.twig' %}
+
+{% block content %}
+    <h1>Sukurkime nauja recepta</h1>
+
+    {# form - tai dezute kurioje gyvena duomenys kuriuos nori issiusti i serveri #}
+    {# visi input, textarea, checkbox, radio ir t.t. pagal name atributa bus sugrupuoti ir issiusti i serveri #}
+    <form method="post">
+        {# title#}
+        <div class="form-group">
+            <label for="title-input">Pavadinimas</label>
+            <input name="title" type="text" id="title-input" class="form-control" placeholder="Keksas v2">
+        </div>
+        {# description #}
+        <div class="form-group">
+            <label for="description-input">Aprasymas</label>
+            <textarea name="description" type="text" id="description-input" class="form-control"></textarea>
+        </div>
+
+        {# author #}
+        <div class="form-group">
+            <label for="author-input">Autorius</label>
+            <input name="author" type="text" id="author-input" class="form-control" placeholder="Insoda">
+        </div>
+
+        <button class="btn btn-primary" type="submit">Sukurti</button>
+    </form>
+
+{% endblock %}
+
+{% block recipeTitle %}
+    <h3>Cia galite sukurti skaniausiu receptu! go on! Just do it!</h3>
+{% endblock %}

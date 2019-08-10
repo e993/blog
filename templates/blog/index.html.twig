@@ -1,1 +1,26 @@
 {% extends 'base.html.twig' %}
+
+{% block content %}
+    <h3>Receptai</h3>
+    <h3>Cia rasite visus naujausiu musu receptus!</h3>
+    <div class="row" style="margin-top: 30px">
+        {% for blog in blogs %}
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ blog.title }}</h5>
+                        <p class="card-text">
+                            {{ blog.description }}
+                        </p>
+                        <a href="#" class="btn btn-primary">
+                            {{ blog.author }}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}
+
+
