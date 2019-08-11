@@ -1,0 +1,55 @@
+
+#homepage{
+  .container-fluid {
+    padding: 0;
+
+    .jumbotron {
+      background: url("/images/mansuit.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 0 0 4rem;
+
+      #headerlist {
+        .navbar {
+          padding: 11px 69px;
+        }
+
+        .logotext {
+          span {
+            color: $secondaryColor;
+            font-size: 26px;
+          }
+
+          font-family: $fontFamily;
+          color: white;
+          font-size: 30px;
+          font-weight: 600;
+        }
+
+        .header-menu {
+
+          a {
+            font-size: 15px;
+            color: white;
+            font-weight: 600;
+            padding: 10px 16px 6px;
+
+            &:hover {
+              color:$secondaryColor;
+            }
+
+            span {
+              color: $secondaryColor;
+            }
+          }
+
+          .btn {
+            border-radius: 0;
+            margin-left: 10px;
+          }
+        }
+      }
+
+    }
+  }
+}

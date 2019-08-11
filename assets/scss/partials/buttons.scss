@@ -1,0 +1,13 @@
+.btn{
+  font-size: 13px;
+  padding: 8px 14px;
+  font-weight: 600;
+}
+.btn-primary{
+  background-color:$primaryColor;
+  border-color:$primaryColor;
+}
+.btn-hollow{
+  background-color: rgba(255, 255, 255, .2);
+  color: rgba(255, 255, 255, 0.68);
+}
