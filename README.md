@@ -8,6 +8,11 @@ cd ~/projects/blog
 php bin/console server:run
 ```
 
+### Naujas tab'as
+```
+CMD + T 
+```
+
 ### CSS/JS paleidimas
 
 ```
