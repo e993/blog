@@ -1,0 +1,48 @@
+.project-info {
+  padding: 54px 54px 54px 69px;
+  color: $textPrimaryColor;
+  text-align: center;
+
+  h5 {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  p {
+    font-size: 12px;
+    color: rgba(34, 34, 34, 0.81);
+    line-height: 0.4rem;
+
+  }
+
+}
+
+.project-info-list {
+  border-bottom: 2px solid $borderColor;
+  .project-info-list-item{
+    padding: 54px 54px 54px 69px;
+  }
+
+  .card {
+    border: 0;
+    margin: 0;
+  }
+
+  .card-body {
+    padding: 0;
+  }
+
+  h5 {
+    color: $primaryColor;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  p {
+    color: $textPrimaryColor;
+    font-size: 8px;
+    font-weight: 600;
+    text-align: center;
+  }
+}

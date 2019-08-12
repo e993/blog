@@ -1,5 +1,5 @@
 
-#homepage{
+#homepage {
   .container-fluid {
     padding: 0;
 
@@ -8,8 +8,10 @@
       background-repeat: no-repeat;
       background-size: cover;
       padding: 0 0 4rem;
+      margin-bottom: 0;
 
       #headerlist {
+
         .navbar {
           padding: 11px 69px;
         }
@@ -29,13 +31,13 @@
         .header-menu {
 
           a {
-            font-size: 15px;
+            font-size: 0.8125rem;
             color: white;
             font-weight: 600;
             padding: 10px 16px 6px;
 
             &:hover {
-              color:$secondaryColor;
+              color: $secondaryColor;
             }
 
             span {

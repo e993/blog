@@ -1,0 +1,48 @@
+.infoPay {
+  padding: 54px 54px 54px 69px;
+  background-color: $primarySecondColor;
+  height: 14rem;
+
+  &:hover {
+    background-color: $primaryColor;
+  }
+
+  .media {
+    width: 80%;
+    color: white;
+    float: left;
+    margin-right: 1rem;
+
+    img {
+      width: 4.5rem;
+      margin-right: 3rem;
+    }
+
+    .media-body {
+      h5 {
+        font-weight: 300;
+      }
+
+      p {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.72);
+        line-height: 1.5rem;
+        text-align: justify;
+      }
+    }
+  }
+
+  .icon {
+    width: 10%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    padding-top: 2rem;
+
+    .fa-angle-right {
+      font-size: 3rem;
+      color: $iconColor;
+
+    }
+  }
+}
