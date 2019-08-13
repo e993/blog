@@ -1,0 +1,44 @@
+.footer-list{
+  padding: 3.375rem 3.375rem 3.375rem 4.3125rem;
+  .btn{
+    border-radius: 0;
+    background-color: #F3D111;
+    border: #F3D111;
+    color: $textPrimaryColor;
+    font-size: 0.8125rem;
+    padding: 0.625rem 0.875rem;
+  }
+  p{
+    color:#9D9E9D;
+    font-size: 9px;
+    font-weight: 500;
+    padding-top: 0.625rem;
+    span{
+      padding-right: 5px;
+      font-weight: 600;
+    }
+  }
+}
+.social-media{
+  float: right;
+  a{
+    margin-right: 5px;
+  }
+  img{
+    width: 2.3125rem
+  ;
+  }
+  .button-up{
+    width: 2.3125rem;
+    height: 2.3125rem;
+    background-color: $primaryColor;
+    display: inline-block;
+    text-align: center;
+    margin-left: 2rem;
+    i{
+      font-size: 1.6875rem;
+      color: white;
+      font-weight: 400;
+    }
+  }
+}

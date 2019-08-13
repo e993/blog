@@ -1,0 +1,62 @@
+.another-companies {
+  padding: 54px 54px 54px 69px;
+  color: $textPrimaryColor;
+  text-align: center;
+
+  h5 {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  p {
+    font-size: 12px;
+    color: rgba(34, 34, 34, 0.81);
+    line-height: 0.4rem;
+
+  }
+
+
+}
+.another-companies-list{
+  border-bottom: 3px solid $borderColor;
+  padding: 0 54px 54px 69px;
+  h5{
+    font-size: 14px;
+    color: $textPrimaryColor;
+  }
+  a{
+    border-radius: 0;
+    color: #ACACAC;
+    font-size: 10px;
+    background-color: $buttonBackgroundColor;
+    border: $buttonBackgroundColor;
+    padding: 8px;
+    width: 4rem;
+
+    &:hover{
+      background-color:$primaryColor;
+      color: white;
+    }
+  }
+  ul{
+    margin-top: 21px;
+    list-style: none;
+    padding: 0;
+    width: 15rem;
+    li{
+      font-size: 11px;
+      color: $primaryColor;
+      padding: 15px 0 10px 0;
+    }
+    span{
+      font-size: 8px;
+      color: $textPrimaryColor;
+      font-weight: 500;
+      border-bottom: 2px solid $borderColor;
+      display: block;
+      padding-bottom: 15px;
+
+    }
+  }
+
+}

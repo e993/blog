@@ -1,5 +1,5 @@
 .project-info {
-  padding: 54px 54px 54px 69px;
+  padding: 3.375rem 3.375rem 3.375rem 4.3125rem;
   color: $textPrimaryColor;
   text-align: center;
 
@@ -9,7 +9,7 @@
   }
 
   p {
-    font-size: 12px;
+    font-size: 0.75rem;
     color: rgba(34, 34, 34, 0.81);
     line-height: 0.4rem;
 
@@ -18,9 +18,9 @@
 }
 
 .project-info-list {
-  border-bottom: 2px solid $borderColor;
+  border-bottom: 3px solid $borderColor;
   .project-info-list-item{
-    padding: 54px 54px 54px 69px;
+    padding: 3.375rem 3.375rem 3.375rem 4.3125rem;
   }
 
   .card {
@@ -41,7 +41,7 @@
 
   p {
     color: $textPrimaryColor;
-    font-size: 8px;
+    font-size: 0.5rem;
     font-weight: 600;
     text-align: center;
   }

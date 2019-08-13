@@ -1,0 +1,72 @@
+.employess{
+  padding: 3.375rem 0 3.375rem 3.375rem;
+  border-bottom: 0.1875rem solid $borderColor;
+  text-align: center;
+  h5{
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 4rem;
+    font-weight: 400;
+  }
+  .employess-contacts{
+    width: 18%;
+    display: inline-block;
+    .card{
+      border-radius: 0;
+      border: 2px solid $borderColor;
+      padding: 30px;
+      text-align: center;
+      margin: 0;
+      &:hover{
+        border: 2px solid $primaryColor;
+        h5{
+          color:$primaryColor;
+        }
+        p{
+          color:$textPrimaryColor;
+        }
+        a{
+          background-color: $primaryColor;
+          color: white;
+
+        }
+      }
+
+      .card-img-top {
+        width: 4rem;
+        margin: 0 1.875rem 1.25rem 1.875rem;
+
+      }
+    }
+    .card-body{
+      padding: 0;
+      h5{
+        color:$textPrimaryColor;
+        font-size: 0.9rem;
+        padding: 0;
+        margin-bottom: 0.5rem;
+      }
+      p{
+        color: $contactColor;
+        font-size: 0.6875rem;
+        font-weight: 500;
+        margin-bottom: 1.875rem;
+      }
+      a{
+        border-radius: 0;
+        color: #ACACAC;
+        font-size: 0.625rem;
+        background-color: $buttonBackgroundColor;
+        border: $buttonBackgroundColor;
+        padding: 0.75rem;
+        width: 7rem;
+
+      }
+    }
+
+    }
+
+
+  }
+
+

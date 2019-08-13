@@ -1,5 +1,6 @@
 .company-list{
-padding: 54px 0 54px 54px;
+  border-bottom: 3px solid $borderColor;
+  padding: 3.375rem 0 3.375rem 3.375rem;
   h5{
     text-align: right;
     font-size: 1rem;
@@ -12,13 +13,13 @@ padding: 54px 0 54px 54px;
     li{
       list-style: none;
       text-align: right;
-      font-size: 12px;
+      font-size: 0.75rem;
       color: rgba(34, 34, 34, 0.81);
       line-height: 2rem;
       i{
         color: $primaryColor;
         font-size: .9rem;
-        padding-left: 10px;
+        padding-left: 0.625rem;
       }
     }
 
@@ -27,7 +28,8 @@ padding: 54px 0 54px 54px;
 }
 
 .company-list-candidates{
-  padding: 54px 0 54px 54px;
+  border-bottom: 3px solid $borderColor;
+  padding: 3.375rem 0 3.375rem 3.375rem;
   h5{
     text-align: left;
     font-size: 1rem;
@@ -39,17 +41,57 @@ padding: 54px 0 54px 54px;
     li{
       list-style: none;
       text-align: left;
-      font-size: 12px;
+      font-size: 0.75rem;
       color: rgba(34, 34, 34, 0.81);
       line-height: 2rem;
       i{
         color: $primaryColor;
         font-size: .9rem;
-        padding-right: 10px;
+        padding-right: 0.625rem;
       }
     }
 
   }
 
+}
+.radius-box{
+  padding: 3.375rem 0 3.375rem 3.375rem;
+  border-bottom: 3px solid $borderColor;
+  text-align: center;
+}
+.white-radius{
+  background-color: white;
+  display: inline-block;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 100%;
+  border: 0.5625rem solid $borderColor;
+  p{
+    text-align: center;
+    padding: 2.8rem 0;
+    font-size: 1.8125rem;
+    font-weight: 600;
+    span{
+      font-weight: normal;
+    }
+  }
+}
+.blue-radius{
+  background-color: $primaryColor;
+  display: inline-block;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 100%;
+  border: 0.5625rem solid $borderColor;
+  p{
+    text-align: center;
+    padding: 2.9rem 0;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: white;
+    span{
+      font-weight: normal;
+    }
+  }
 }
 
